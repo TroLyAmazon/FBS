@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
     });
 });
 
-const port = process.env.PORT || 2004;
+const port = process.env.PORT || 2048;
 server.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
 });
